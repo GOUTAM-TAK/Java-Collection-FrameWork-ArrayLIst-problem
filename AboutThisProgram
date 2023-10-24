@@ -1,0 +1,26 @@
+# Java-Collection-FrameWork-ArrayLIst-problem
+Write a console-based menu driven java program for site ADMIN to perform following operations: 
+
+1. Add new Pen
+2. Update stock of aPen
+3.Set discount of 20% for all the pens which are not at all sold in last 3 months
+4. Remove Pens which arenever sold once listed in 9 months
+
+You can define a class Pen with the following fields – 
+a.	ID (unique identifier for each Pen, should be generated automatically)
+b.	Brand (Example:  Cello, Parker, Reynolds etc.)
+c.	Color
+d.	InkColor
+e.	Material (Example: Plastic, Alloy Steel, Metal etc.)
+f.	Stock (Available quantity)
+g.	Stock Update Date (it changed every time when admin update stock or user order executed)
+h.	Stock Listing Date (date on which product is added to site for sale)
+i.	Price (in INR) 
+j.	Discounts (in percentage)
+
+HighLights of this Program =>                      1)List collection API use
+                                                   2)Custom Sorting by use of Stream API
+                                                  3)Enum,Interface use
+                                                  4)Serializable and De-serializable read and write data from binary file[read from "StockData.ser",write updated data on "UpdatedStockData.ser"]
+                                                  5)Functional programing and lambda expression
+
